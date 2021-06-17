@@ -9,16 +9,11 @@ const forms = {
 }
 
 forms.cells.addEventListener('change', () => {
-    // setInterval(() => {
-    //     const AquariumObject = new Aquarium(aquariumNode, form.value, []);
-    //     AquariumObject.renderAquarium()
-    // }, 1000)
     const AquariumObject = new Aquarium(
-        aquariumNode, 15,4,4,
-        3,2, []
+        aquariumNode, forms.cells.value,forms.prey.value,forms.predator.value,
+        forms.stones.value,forms.seaweeds.value, [],
     );
-    // aquariumNode, forms.cells.value,forms.prey.value,forms.predator.value,
-    // forms.stones.value,forms.seaweeds.value, [],
+    
     AquariumObject.initializeAquarium();
     AquariumObject.nextIteration();
 });
