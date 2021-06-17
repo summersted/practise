@@ -1,0 +1,65 @@
+.cell{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 1px;
+}
+#aquarium{
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+}
+#root{
+    display: flex;
+}
+.input_form{
+    margin-top: 200px;
+    margin-right: 100px;
+}
+.stone{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: gray;
+}
+.seaweed{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: green;
+}
+.prey{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: blue;
+}
+.predator{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: red;
+}
+.flex{
+    display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    margin-top: 50px;
+    flex-direction: column;
+}

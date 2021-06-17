@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <div id="aquarium"></div>
+        <div class="input_form">
+            <form>
+                <label for="number_of_cells"> Enter a number of cells</label>
+                <input type="number" name="number_of_cells">
+                <label for="number_of_cells"> Enter a number of prey fishes</label>
+                <input type="number" name="number_of_prey">
+                <label for="number_of_cells"> Enter a number of predator fishes</label>
+                <input type="number" name="number_of_predator">
+                <label for="number_of_cells"> Enter a number of stones</label>
+                <input type="number" name="number_of_stones">
+                <label for="number_of_cells"> Enter a number of seaweeds</label>
+                <input type="number" name="number_of_seaweeds">
+            </form>
+            <div class="flex column">
+                <div class="flex row">
+                    <div class="cell"></div>
+                    <span>- empty cell</span>
+                </div>
+                <div class="flex row">
+                    <div class="stone"></div>
+                    <span>- stone</span>
+                </div>
+                <div class="flex row">
+                    <div class="seaweed"></div>
+                    <span>- seaweed</span>
+                </div>
+                <div class="flex row">
+                    <div class="predator"></div>
+                    <span>- predator fish</span>
+                </div>
+                <div class="flex row">
+                    <div class="prey"></div>
+                    <span>- prey fish</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
